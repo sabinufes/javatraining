@@ -11,8 +11,8 @@ public class inmultire {
             System.out.println(i + "X" + n + "=" + i*n);
             i++;
         }*/
-        for (i = 1; i <=9; i++) {
-            System.out.println(i + "X" + n + "=" + i*n);
+        for (i = 1; i <= 9; i++) {
+            System.out.println(i + "X" + n + "=" + i * n);
         }
     }
 }
