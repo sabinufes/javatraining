@@ -1,15 +1,13 @@
-package Heroes;
+package heroes;
 
-public class Goku extends Hero{
-
-    public Goku(String name, int hp, int mana) {
+public class Mage extends Hero {
+    public Mage(String name, int hp, int mana) {
         super(name, hp, mana);
     }
 
     @Override
     public void firePrimary() {
-        fireSecondary();
-        mana -= 5;
+        mana -= 15;
     }
 
     @Override
@@ -20,8 +18,7 @@ public class Goku extends Hero{
 
     @Override
     public void reciveHit() {
-        hp -= 1;
-        mana += 3;
+        hp -= 33;
 
     }
 }

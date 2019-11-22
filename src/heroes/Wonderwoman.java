@@ -1,24 +1,26 @@
-package Heroes;
+package heroes;
 
-public class Mage extends Hero {
-    public Mage(String name, int hp, int mana) {
+public class Wonderwoman extends Hero {
+    public Wonderwoman(String name, int hp, int mana) {
         super(name, hp, mana);
     }
 
     @Override
     public void firePrimary() {
-        mana -= 15;
+        mana -= 10;
+        hp++;
     }
 
     @Override
     public void fireSecondary() {
-        mana -= 40;
+        mana -=30;
+        hp += 3;
 
     }
 
     @Override
     public void reciveHit() {
-        hp -= 33;
+        hp--;
 
     }
 }

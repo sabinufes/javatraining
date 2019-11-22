@@ -1,4 +1,4 @@
-package Heroes;
+package heroes;
 
 public class Game {
     public static void main(String[] args) {
@@ -7,6 +7,7 @@ public class Game {
         Wonderwoman hero3 = new Wonderwoman("Diana", 500, 100);
 
         hero1.firePrimary();
+
         hero2.reciveHit();
         hero3.reciveHit();
 
